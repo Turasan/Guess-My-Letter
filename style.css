@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body{
+
+    background-color: #000;
+}
+.container{
+    position: relative;
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+}
+.head{
+    text-align: center;
+    font-size: 2rem;
+    padding: 3% 0 8% 0;
+}
+.line{
+    top: 36%;
+    position: absolute;
+    width: 100%;
+    border-bottom: 0.5rem solid #fff;
+    z-index: -1;
+}
+.secretLetter{
+    margin: 0 auto 0 auto;
+    text-align: center;
+    background-color: #fff;
+    width:8%;
+    padding: 1.5%;
+    font-size: 5rem;
+    color: #000;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 45vh;
+    font-size: 1.5rem;
+}
+
+.again{
+    margin-left: 4%;
+    padding: 0.6%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+}
+
+.letter{
+    text-align: center;
+    font-size: 5rem;
+    width: 10%;
+    border-bottom: 0.5rem solid #fff;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+}
