@@ -44,6 +44,8 @@ else if(randomLetter!=userGuess && score>0){
     document.querySelector('.score').textContent = score;
     if(highscore ==0 && score==0){
         displayMessage('💥 You lost the game!');
+        backGColor("red");
+
         
 }
 
